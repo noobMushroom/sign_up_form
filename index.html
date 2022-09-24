@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up form for dreamland</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&family=Satisfy&display=swap');
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="logo">
+            <img class="logo_image" src="images/xandtor-vmKczlvO12A-unsplash.jpg">
+            <div class="logo_texts">Journey</div>
+            <div class="credits">Photo by <a
+                    href="https://unsplash.com/@xandtor?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">xandtor</a>
+                on <a
+                    href="https://unsplash.com/s/photos/beach?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                </a>
+            </div>
+        </div>
+        <div class="form">
+            <header class="head">
+                <div>
+                    <p><em> This is not a real online service</em>. We all want to live our dreams and complete our
+                        fantasies
+                        sign up today for your dream vacation.</p>
+                </div>
+            </header>
+
+            <form>
+                <div class="container">
+                    <legend>Fill Your information</legend>
+                    <div class="information">
+                        <div class="firstName">
+                            <div>
+                                <label for="first_name">First Name:</label>
+                            </div>
+                            <input type="text" name="first_name" id="first_name" required>
+                        </div>
+                        <div class="lastName">
+                            <div>
+                                <label for="last_name">Last Name</label>
+                            </div>
+                            <input type="text" name="last_name" id="last_name">
+                        </div>
+                    </div>
+
+                    <div class="information">
+                        <div class="email">
+                            <div>
+                                <label for="email_address">email</label>
+                            </div>
+                            <input type="email" name="email" id="email_address" placeholder="jhon@abc.com" required>
+                        </div>
+
+                        <div class="mobileNumber">
+                            <div>
+                                <label for="mobile">Phone Number</label>
+                            </div>
+                            <input type="tel" name="phone_number" id="mobile">
+                        </div>
+                    </div>
+                    <div class="information">
+                        <div class="passwords">
+                            <div>
+                                <label for="password">Password</label>
+                            </div>
+                            <input type="password" name="user_password" id="password" title="" required onkeyup="checker()"><br>
+                            <div id="message"></div>
+                        </div>
+                        <div class="confirm">
+                            <div>
+                                <label for="confirm_password">Confirm Password</label>
+                            </div>
+                            <input type="password" name="confirm_password" id="confirm_password" onkeyup="checker()"
+                                required><br>
+
+                        </div>
+                    </div>
+                </div>
+                <button class="create" type="submit">Create Account</button>
+            </form>
+
+            <div class="already">
+                <p>already have an account? <a href="index.html">Log in</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

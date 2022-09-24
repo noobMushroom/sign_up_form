@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.already a {
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+input {
+    padding-left: 5px;
+    outline: none;
+    border: 1px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: ease-in 0.2s;
+    border-radius: 10px;
+    padding-left: 15px;
+    height: 35px;
+    width: 250px;
+}
+
+input:focus {
+    border: 1px solid blue;
+    /* height:px; */
+
+}
+
+
+.wrapper {
+    background-image: url(images/jeremy-ricketts-FGvRZ-BeCKo-unsplash.jpg);
+    background-size: 100vw 100%;
+    background-repeat: no-repeat;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+
+}
+
+#confirm_password {
+    position: relative;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+
+    background-image: linear-gradient(#7FD8F2, #328FB9);
+    width: 800px;
+    height: 700px;
+}
+
+.head {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    margin-bottom: 60px;
+    padding: 10px;
+
+}
+
+.container {
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgba(10, 186, 180, 0.437),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: rgba(255, 192, 203, 0.41);
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.information {
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.create {
+    margin-left: 10px;
+    margin-top: 30px;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+.already {
+    margin: 10px;
+}
+
+.logo {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    position: relative;
+    height: 700px;
+}
+
+.logo_image {
+    z-index: 0;
+    width: 30vw;
+    height: 700px;
+}
+
+.logo_texts {
+    z-index: 1;
+    font-family:  'Satisfy', cursive;
+    position: absolute;
+    width: 100%;
+    background: rgb(213, 50, 50);
+    opacity: 0.6;
+    color: white;
+    top: 8rem;
+    font-size: 70px;
+    text-align: center;
+}
+
+.credits {
+    z-index: 1;
+    position: absolute;
+    justify-self: flex-end;
+    opacity: 0.6;
+    background-color: rgba(0, 0, 0, 0.384);
+    color: white;
+    bottom: 1%;
+    text-align: center;
+    color: white;
+    width: 100%;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.credits a{
+    color: white;
+}
